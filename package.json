@@ -1,0 +1,35 @@
+{
+  "name": "minima",
+  "version": "1.0.0",
+  "description": "A super-light Tailwind CSS alternative (~10.6KB gzipped, 96.5% smaller)",
+  "main": "minima.css",
+  "style": "minima.css",
+  "scripts": {
+    "minify": "node minify.js",
+    "build": "npm run minify"
+  },
+  "keywords": [
+    "css",
+    "utility-first",
+    "tailwind-alternative",
+    "lightweight-css",
+    "responsive",
+    "mobile-first",
+    "framework",
+    "minimal"
+  ],
+  "author": "MML9Code",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MML9Code/minima.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MML9Code/minima/issues"
+  },
+  "homepage": "https://github.com/MML9Code/minima#readme",
+  "files": [
+    "minima.css",
+    "minima.min.css"
+  ]
+}
